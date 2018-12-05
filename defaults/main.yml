@@ -1,0 +1,8 @@
+---
+
+prometheus_memcached_exporter_version: 0.5.0
+prometheus_memcached_exporter_release_name: "memcached_exporter-{{ prometheus_memcached_exporter_version }}.linux-amd64"
+
+prometheus_memcached_exporter_config_flags:
+  'web.listen-address': '0.0.0.0:9150'
+  'log.level': 'info'
